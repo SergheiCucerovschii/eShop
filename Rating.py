@@ -1,5 +1,5 @@
-from Customer import *
-from Product import *
+# from Customer import *
+# from Product import *
 
 class Rating:
     def __init__(self, id, productId, customerId,stars,review):
