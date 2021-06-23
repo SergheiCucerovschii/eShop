@@ -14,5 +14,5 @@ class Rating:
         return f"{self.id} {self.productId} {self.customerId} Rating - {self.stars} Rewiew: {self.review}"
 
     def __repr__(self):
-        return self.__str__()
+        return f"{self.id} {self.productId} {self.customerId} Rating - {self.stars} Rewiew: {self.review}"
 
