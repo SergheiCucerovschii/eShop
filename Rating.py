@@ -10,8 +10,6 @@ class Rating:
         self.review = review
 
 
-
-
     def starsOverall(self):
         while True:
             try:
@@ -34,5 +32,3 @@ class Rating:
     def __repr__(self):
         return self.__str__()
 
-e = Rating(6,8, john,{self.stars}, {self.review})
-print(e)
