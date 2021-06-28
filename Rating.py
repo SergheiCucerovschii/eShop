@@ -1,8 +1,5 @@
-# from Customer import *
-# from Product import *
-
 class Rating:
-    def __init__(self, id, productId, customerId,stars,review):
+    def __init__(self, id):
         self.id = id
         self.productId = productId
         self.customerId = customerId
@@ -11,8 +8,7 @@ class Rating:
 
 
     def __str__(self):
-        return f"{self.id} {self.productId} {self.customerId} Rating - {self.stars} Rewiew: {self.review}"
+        return f"ID: {self.id}\n Product ID: {self.productId}\n Customer ID: {self.customerId}\n Rating: {self.stars}\n Rewiew: {self.review}"
 
     def __repr__(self):
-        return f"{self.id} {self.productId} {self.customerId} Rating - {self.stars} Rewiew: {self.review}"
-
+        return self.__str__()
